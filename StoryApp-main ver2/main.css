@@ -1,0 +1,112 @@
+/*== 全体設定 ==*/
+
+/*== colors
+
+main-blue: #0081A7
+main-green: #00AFB9
+main-yellow: #FDFCDC
+main-red: #F07167;
+==*/
+
+body{
+    font-family: "Noto Sans JP"; 
+}
+
+ol{
+    margin-bottom: 0;
+}
+
+/*== 共通するUI設定 ==*/
+
+.bg-main-blue{
+    background: #0081A7;
+}
+
+.bg-main-green{
+    background: #00AFB9;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+/*== 個別のUIデザイン ==*/
+.main-title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/*== 回答ボタンのデザイン ==*/
+
+
+/* ボタンの背景色 */
+.answer-btn-bg1{
+    background: rgb(240, 157, 157);
+}
+
+.answer-btn-bg2{
+    background: #acfbff;
+}
+
+.answer-btn-bg3{
+    background: #66fdaa;
+}
+
+.answer-btn-bg-4{
+    background: #e94497;
+}
+
+.btn{
+    height: 50px;
+}
+
+.sceneTitle {
+    position: relative;
+    padding: 1.5rem;
+    text-align: center;
+    border: 2px solid #000;
+    background: #fff;
+  }
+  
+  .sceneTitle:before,
+  .sceneTitle:after {
+    position: absolute;
+    content: '';
+  }
+  
+  .sceneTitle:before {
+    top: -40px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    background: #fff;
+  }
+  
+  .sceneTitle:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+  
+  .sceneTitle i {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 60px;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 60px;
+    text-align: center;
+  }
+  
+  .sceneTitle span {
+    position: relative;
+    z-index: 1;
+  }
+  
